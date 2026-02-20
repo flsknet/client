@@ -1,0 +1,69 @@
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+
+@import "@mdxeditor/editor/style.css";
+
+:root {
+  font-family: "Roboto", sans-serif;
+}
+
+:not(a),
+:not(input):not(textarea),
+:not(input):not(textarea)::after,
+:not(input):not(textarea)::before {
+  user-select: none;
+}
+
+.mdxeditor {
+  --baseBg: transparent;
+  --baseBgActive: var(--mui-palette-primary-main);
+  --baseSolid: var(--mui-palette-text-secondary);
+  --baseText: var(--mui-palette-text-primary);
+  --baseTextContrast: var(--mui-palette-text-primary);
+
+  border-width: 1px;
+  border-color: var(--mui-palette-divider);
+  border-style: solid;
+
+  border-radius: 4px;
+
+  &:hover {
+    border-color: white;
+  }
+
+  &:focus-within {
+    border-color: transparent;
+
+    outline: 2px;
+    outline-style: solid;
+    outline-color: var(--mui-palette-primary-main);
+    outline-offset: -2px;
+  }
+
+  .cm-editor {
+    background: transparent;
+    color: var(--mui-palette-text-primary);
+
+    margin-bottom: 12px;
+  }
+
+  .cm-gutterElement {
+    background: transparent;
+    color: var(--mui-palette-text-secondary);
+
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+
+    margin-left: 8px;
+  }
+
+  .cm-foldGutter {
+    width: 4px;
+  }
+
+  .cm-line {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+  }
+}

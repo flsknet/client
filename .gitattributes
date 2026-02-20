@@ -1,0 +1,4 @@
+* text=auto eol=lf
+src/routeTree.gen.ts linguist-generated=true
+src/gen/** linguist-generated=true
+src/locales/** linguist-generated=true

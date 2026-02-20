@@ -1,0 +1,605 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-02-20 17:21+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/components/app/organizations/invites/create-invite.tsx:36
+msgid "1 hour"
+msgstr "1 hour"
+
+#: src/components/app/organizations/invites/create-invite.tsx:52
+msgid "1 month"
+msgstr "1 month"
+
+#: src/components/app/organizations/invites/create-invite.tsx:48
+msgid "1 week"
+msgstr "1 week"
+
+#: src/components/app/organizations/invites/create-invite.tsx:60
+msgid "1 year"
+msgstr "1 year"
+
+#: src/components/app/organizations/invites/create-invite.tsx:40
+msgid "12 hours"
+msgstr "12 hours"
+
+#: src/components/app/organizations/invites/create-invite.tsx:44
+msgid "24 hours"
+msgstr "24 hours"
+
+#: src/components/app/organizations/invites/create-invite.tsx:32
+msgid "30 minutes"
+msgstr "30 minutes"
+
+#: src/components/app/organizations/invites/create-invite.tsx:27
+msgid "5 minutes"
+msgstr "5 minutes"
+
+#: src/components/app/organizations/invites/create-invite.tsx:56
+msgid "6 months"
+msgstr "6 months"
+
+#: src/components/app/organizations/invites/invite-preview.tsx:99
+msgid "Accept"
+msgstr "Accept"
+
+#: src/components/app/settings/settings-menu-items.tsx:11
+#: src/routes/_app/settings/account.tsx:22
+msgid "Account"
+msgstr "Account"
+
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/index.tsx:71
+msgid "Add"
+msgstr "Add"
+
+#: src/components/app/organizations/members/member-list.tsx:38
+#: src/components/app/organizations/members/update-member.tsx:24
+msgid "Admin"
+msgstr "Admin"
+
+#: src/routes/_auth/signup.tsx:21
+msgid "Already have an account?"
+msgstr "Already have an account?"
+
+#: src/components/error-fallback.tsx:8
+#~ msgid "An error has occured."
+#~ msgstr "An error has occured."
+
+#: src/components/error-fallback.tsx:8
+#: src/lib/zod-error-map.ts:32
+msgid "An error occured."
+msgstr "An error occured."
+
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/index.tsx:49
+msgid "Are you sure you want to delete this board?"
+msgstr "Are you sure you want to delete this board?"
+
+#: src/components/app/organizations/discussions/comments/comment-list.tsx:73
+msgid "Are you sure you want to delete this comment?"
+msgstr "Are you sure you want to delete this comment?"
+
+#: src/routes/_app/organizations/$organizationId/discussions/$discussionId/index.tsx:50
+msgid "Are you sure you want to delete this discussion?"
+msgstr "Are you sure you want to delete this discussion?"
+
+#: src/components/app/organizations/invites/invite-list.tsx:57
+msgid "Are you sure you want to delete this invite?"
+msgstr "Are you sure you want to delete this invite?"
+
+#: src/components/app/organizations/delete-organization.tsx:36
+msgid "Are you sure you want to delete this organization?"
+msgstr "Are you sure you want to delete this organization?"
+
+#: src/components/app/organizations/boards/tasks/task-list.tsx:87
+msgid "Are you sure you want to delete this task?"
+msgstr "Are you sure you want to delete this task?"
+
+#: src/components/app/settings/account/delete-account.tsx:24
+msgid "Are you sure you want to delete your account?"
+msgstr "Are you sure you want to delete your account?"
+
+#: src/components/app/organizations/members/member-list.tsx:70
+msgid "Are you sure you want to kick this member?"
+msgstr "Are you sure you want to kick this member?"
+
+#: src/components/app/organizations/organization-menu-items.tsx:45
+msgid "Are you sure you want to leave this organization?"
+msgstr "Are you sure you want to leave this organization?"
+
+#: src/components/app/settings/settings-menu-items.tsx:31
+msgid "Are you sure you want to sign out of your account?"
+msgstr "Are you sure you want to sign out of your account?"
+
+#: src/components/app/organizations/boards/tasks/create-task.tsx:91
+#: src/components/app/organizations/boards/tasks/create-task.tsx:94
+#: src/components/app/organizations/boards/tasks/update-task.tsx:102
+#: src/components/app/organizations/boards/tasks/update-task.tsx:105
+msgid "Assigned to"
+msgstr "Assigned to"
+
+#: src/components/app/organizations/organization-menu-items.tsx:29
+#: src/components/app/organizations/organization-overview.tsx:44
+#: src/routes/_app/organizations/$organizationId/boards/index.tsx:26
+msgid "Boards"
+msgstr "Boards"
+
+#: src/components/app/organizations/boards/tasks/task-list.tsx:89
+#: src/components/app/organizations/delete-organization.tsx:38
+#: src/components/app/organizations/discussions/comments/comment-list.tsx:75
+#: src/components/app/organizations/invites/invite-list.tsx:59
+#: src/components/app/organizations/members/member-list.tsx:72
+#: src/components/app/organizations/organization-menu-items.tsx:47
+#: src/components/app/settings/account/delete-account.tsx:26
+#: src/components/app/settings/settings-menu-items.tsx:33
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/index.tsx:51
+#: src/routes/_app/organizations/$organizationId/discussions/$discussionId/index.tsx:52
+msgid "Cancel"
+msgstr "Cancel"
+
+#: src/components/app/settings/account/change-email.tsx:43
+#: src/components/app/settings/account/change-password.tsx:65
+msgid "Change"
+msgstr "Change"
+
+#: src/routes/_app/settings/account.tsx:32
+msgid "Change email"
+msgstr "Change email"
+
+#: src/routes/_app/settings/language.tsx:21
+msgid "Change language"
+msgstr "Change language"
+
+#: src/routes/_app/settings/account.tsx:38
+msgid "Change password"
+msgstr "Change password"
+
+#: src/routes/_app/settings/theme.tsx:21
+msgid "Change theme"
+msgstr "Change theme"
+
+#: src/components/app/organizations/discussions/comments/create-comment.tsx:87
+msgctxt "verb"
+msgid "Comment"
+msgstr "Comment"
+
+#: src/components/app/settings/account/change-password.tsx:55
+#: src/components/auth/sign-up.tsx:67
+msgid "Confirm password"
+msgstr "Confirm password"
+
+#: src/routes/_app/index.tsx:19
+msgid "Coordinate and collaborate with your team."
+msgstr "Coordinate and collaborate with your team."
+
+#: src/components/app/organizations/invites/invite-list.tsx:107
+msgctxt "verb"
+msgid "Copy"
+msgstr "Copy"
+
+#: src/components/app/organizations/boards/create-board.tsx:57
+#: src/components/app/organizations/boards/tasks/create-task.tsx:123
+#: src/components/app/organizations/create-organization.tsx:87
+#: src/components/app/organizations/discussions/create-discussion.tsx:88
+#: src/components/app/organizations/invites/create-invite.tsx:141
+#: src/routes/_app/organizations/$organizationId/boards/index.tsx:32
+#: src/routes/_app/organizations/$organizationId/discussions/index.tsx:26
+#: src/routes/_app/organizations/$organizationId/settings/invites/index.tsx:35
+msgid "Create"
+msgstr "Create"
+
+#: src/routes/_app/index.tsx:18
+msgid "Create an organization"
+msgstr "Create an organization"
+
+#: src/components/app/settings/account/change-password.tsx:41
+msgid "Current password"
+msgstr "Current password"
+
+#: src/components/app/settings/theme/change-theme.tsx:17
+msgid "Dark"
+msgstr "Dark"
+
+#: src/components/app/organizations/invites/invite-preview.tsx:91
+msgid "Decline"
+msgstr "Decline"
+
+#: src/components/app/organizations/boards/tasks/task-list.tsx:88
+#: src/components/app/organizations/boards/tasks/task-list.tsx:182
+#: src/components/app/organizations/delete-organization.tsx:37
+#: src/components/app/organizations/discussions/comments/comment-list.tsx:74
+#: src/components/app/organizations/discussions/comments/comment-list.tsx:149
+#: src/components/app/organizations/invites/invite-list.tsx:58
+#: src/components/app/organizations/invites/invite-list.tsx:115
+#: src/components/app/settings/account/delete-account.tsx:25
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/index.tsx:50
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/index.tsx:89
+#: src/routes/_app/organizations/$organizationId/discussions/$discussionId/index.tsx:51
+#: src/routes/_app/organizations/$organizationId/discussions/$discussionId/index.tsx:87
+msgid "Delete"
+msgstr "Delete"
+
+#: src/components/app/settings/account/delete-account.tsx:46
+#: src/routes/_app/settings/account.tsx:44
+msgid "Delete account"
+msgstr "Delete account"
+
+#: src/components/app/settings/account/delete-account.tsx:23
+msgid "Delete account?"
+msgstr "Delete account?"
+
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/index.tsx:48
+msgid "Delete board?"
+msgstr "Delete board?"
+
+#: src/components/app/organizations/discussions/comments/comment-list.tsx:72
+msgid "Delete comment?"
+msgstr "Delete comment?"
+
+#: src/routes/_app/organizations/$organizationId/discussions/$discussionId/index.tsx:49
+msgid "Delete discussion?"
+msgstr "Delete discussion?"
+
+#: src/components/app/organizations/invites/invite-list.tsx:56
+msgid "Delete invite?"
+msgstr "Delete invite?"
+
+#: src/components/app/organizations/delete-organization.tsx:58
+#: src/routes/_app/organizations/$organizationId/settings/general.tsx:38
+msgid "Delete organization"
+msgstr "Delete organization"
+
+#: src/components/app/organizations/delete-organization.tsx:35
+msgid "Delete organization?"
+msgstr "Delete organization?"
+
+#: src/components/app/organizations/boards/tasks/task-list.tsx:86
+msgid "Delete task?"
+msgstr "Delete task?"
+
+#: src/components/app/organizations/discussions/comments/comment-list.tsx:96
+#: src/components/app/organizations/discussions/discussion-list.tsx:57
+msgid "Deleted user"
+msgstr "Deleted user"
+
+#: src/components/app/organizations/boards/tasks/create-task.tsx:83
+#: src/components/app/organizations/boards/tasks/update-task.tsx:94
+#: src/components/app/organizations/create-organization.tsx:62
+#: src/components/app/organizations/update-organization.tsx:103
+msgid "Description"
+msgstr "Description"
+
+#: src/components/app/organizations/organization-menu-items.tsx:24
+#: src/components/app/organizations/organization-overview.tsx:39
+#: src/routes/_app/organizations/$organizationId/discussions/index.tsx:24
+msgid "Discussions"
+msgstr "Discussions"
+
+#: src/routes/_auth/signin.tsx:21
+msgid "Don't have an account?"
+msgstr "Don't have an account?"
+
+#: src/components/app/organizations/boards/tasks/task-list.tsx:50
+msgid "Done"
+msgstr "Done"
+
+#: src/components/app/organizations/boards/tasks/task-list.tsx:174
+#: src/components/app/organizations/discussions/comments/comment-list.tsx:135
+#: src/components/app/organizations/members/member-list.tsx:114
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/index.tsx:80
+#: src/routes/_app/organizations/$organizationId/discussions/$discussionId/index.tsx:72
+msgid "Edit"
+msgstr "Edit"
+
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/edit.tsx:20
+msgid "Edit board"
+msgstr "Edit board"
+
+#: src/routes/_app/organizations/$organizationId/discussions/$discussionId/$commentId.edit.tsx:34
+msgid "Edit comment"
+msgstr "Edit comment"
+
+#: src/routes/_app/organizations/$organizationId/discussions/$discussionId/edit.tsx:20
+msgid "Edit discussion"
+msgstr "Edit discussion"
+
+#: src/routes/_app/organizations/$organizationId/settings/people/$userId.edit.tsx:32
+msgid "Edit member"
+msgstr "Edit member"
+
+#: src/routes/_app/organizations/$organizationId/settings/general.tsx:28
+msgid "Edit organization"
+msgstr "Edit organization"
+
+#: src/routes/_app/settings/account.tsx:26
+msgid "Edit profile"
+msgstr "Edit profile"
+
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/$taskId.edit.tsx:45
+msgid "Edit task"
+msgstr "Edit task"
+
+#: src/components/app/settings/account/change-email.tsx:34
+#: src/components/auth/sign-in.tsx:40
+#: src/components/auth/sign-up.tsx:53
+msgid "Email"
+msgstr "Email"
+
+#: src/components/app/organizations/invites/invite-list.tsx:142
+msgid "Expires at"
+msgstr "Expires at"
+
+#: src/components/app/organizations/invites/create-invite.tsx:101
+#: src/components/app/organizations/invites/create-invite.tsx:104
+msgid "Expires in"
+msgstr "Expires in"
+
+#: src/components/app/organizations/organization-settings-items.tsx:6
+#: src/routes/_app/organizations/$organizationId/settings/general.tsx:24
+msgid "General"
+msgstr "General"
+
+#: src/routes/_app.tsx:49
+msgid "Home"
+msgstr "Home"
+
+#: src/components/app/organizations/boards/tasks/task-list.tsx:49
+msgid "In progress"
+msgstr "In progress"
+
+#: src/components/app/organizations/invites/invite-list.tsx:139
+#: src/components/app/organizations/join-organization.tsx:42
+msgid "Invite code"
+msgstr "Invite code"
+
+#: src/components/app/organizations/organization-settings-items.tsx:16
+#: src/routes/_app/organizations/$organizationId/settings/invites/index.tsx:33
+msgid "Invites"
+msgstr "Invites"
+
+#: src/components/app/organizations/join-organization.tsx:52
+#: src/routes/_app/organizations/index.tsx:36
+msgid "Join"
+msgstr "Join"
+
+#: src/routes/_app/index.tsx:25
+msgid "Join an existing organization with an invite code."
+msgstr "Join an existing organization with an invite code."
+
+#: src/routes/_app/index.tsx:24
+#: src/routes/_app/organizations/join.tsx:17
+msgid "Join an organization"
+msgstr "Join an organization"
+
+#. placeholder {0}: i18n.date(member.joinedAt, { timeStyle: "short", dateStyle: "medium", })
+#: src/components/app/organizations/members/member-list.tsx:135
+msgid "Joined at {0}"
+msgstr "Joined at {0}"
+
+#: src/components/app/organizations/members/member-list.tsx:71
+#: src/components/app/organizations/members/member-list.tsx:123
+msgid "Kick"
+msgstr "Kick"
+
+#: src/components/app/organizations/members/member-list.tsx:69
+msgid "Kick member?"
+msgstr "Kick member?"
+
+#: src/components/app/settings/settings-menu-items.tsx:21
+#: src/routes/_app/settings/language.tsx:18
+msgid "Language"
+msgstr "Language"
+
+#: src/components/app/organizations/organization-menu-items.tsx:40
+#: src/components/app/organizations/organization-menu-items.tsx:46
+msgid "Leave"
+msgstr "Leave"
+
+#: src/components/app/organizations/organization-menu-items.tsx:44
+msgid "Leave?"
+msgstr "Leave?"
+
+#: src/components/app/settings/theme/change-theme.tsx:21
+msgid "Light"
+msgstr "Light"
+
+#: src/components/app/organizations/members/member-list.tsx:37
+#: src/components/app/organizations/members/update-member.tsx:23
+msgid "Member"
+msgstr "Member"
+
+#: src/components/app/organizations/boards/create-board.tsx:47
+#: src/components/app/organizations/boards/update-board.tsx:56
+#: src/components/app/organizations/create-organization.tsx:56
+#: src/components/app/organizations/update-organization.tsx:97
+#: src/components/app/settings/account/edit-profile.tsx:64
+#: src/components/auth/sign-up.tsx:47
+msgid "Name"
+msgstr "Name"
+
+#: src/components/app/organizations/invites/create-invite.tsx:23
+#: src/components/app/organizations/invites/invite-list.tsx:84
+msgid "Never"
+msgstr "Never"
+
+#: src/routes/_app/organizations/index.tsx:29
+msgid "New"
+msgstr "New"
+
+#: src/routes/_app/organizations/$organizationId/boards/new.tsx:20
+msgid "New board"
+msgstr "New board"
+
+#: src/routes/_app/organizations/$organizationId/discussions/new.tsx:20
+msgid "New discussion"
+msgstr "New discussion"
+
+#: src/routes/_app/organizations/$organizationId/settings/invites/new.tsx:20
+msgid "New invite"
+msgstr "New invite"
+
+#: src/routes/_app/organizations/new.tsx:17
+msgid "New organization"
+msgstr "New organization"
+
+#: src/components/app/settings/account/change-password.tsx:48
+msgid "New password"
+msgstr "New password"
+
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/new.tsx:20
+msgid "New task"
+msgstr "New task"
+
+#: src/components/app/organizations/invites/invite-list.tsx:86
+msgid "No"
+msgstr "No"
+
+#: src/components/app/organizations/boards/tasks/task-list.tsx:140
+#: src/components/app/organizations/organization-overview.tsx:83
+msgid "No description"
+msgstr "No description"
+
+#: src/routes/_app.tsx:54
+#: src/routes/_app/organizations/index.tsx:27
+msgid "Organizations"
+msgstr "Organizations"
+
+#: src/components/app/organizations/organization-menu-items.tsx:19
+#: src/routes/_app/organizations/$organizationId/overview.tsx:20
+msgid "Overview"
+msgstr "Overview"
+
+#: src/components/app/organizations/members/member-list.tsx:39
+msgid "Owner"
+msgstr "Owner"
+
+#: src/components/auth/sign-in.tsx:46
+#: src/components/auth/sign-up.tsx:60
+msgid "Password"
+msgstr "Password"
+
+#: src/components/app/organizations/organization-overview.tsx:34
+#: src/components/app/organizations/organization-settings-items.tsx:11
+#: src/routes/_app/organizations/$organizationId/settings/people/index.tsx:40
+msgid "People"
+msgstr "People"
+
+#: src/components/auth/sign-in.tsx:52
+msgid "Remember me"
+msgstr "Remember me"
+
+#: src/lib/zod-error-map.ts:9
+msgid "Required."
+msgstr "Required."
+
+#: src/components/app/organizations/members/update-member.tsx:69
+#: src/components/app/organizations/members/update-member.tsx:72
+msgid "Role"
+msgstr "Role"
+
+#: src/components/app/organizations/boards/tasks/update-task.tsx:134
+#: src/components/app/organizations/boards/update-board.tsx:66
+#: src/components/app/organizations/discussions/comments/update-comment.tsx:97
+#: src/components/app/organizations/discussions/update-discussion.tsx:69
+#: src/components/app/organizations/members/update-member.tsx:96
+#: src/components/app/organizations/update-organization.tsx:127
+#: src/components/app/settings/account/edit-profile.tsx:73
+msgid "Save"
+msgstr "Save"
+
+#: src/components/app/organizations/organization-menu-items.tsx:34
+#: src/routes/_app.tsx:59
+#: src/routes/_app/organizations/$organizationId/settings/index.tsx:20
+#: src/routes/_app/settings.tsx:35
+#: src/routes/_app/settings/index.tsx:24
+msgid "Settings"
+msgstr "Settings"
+
+#: src/components/auth/sign-in.tsx:59
+#: src/routes/_auth/signin.tsx:17
+msgid "Sign in"
+msgstr "Sign in"
+
+#: src/components/app/settings/settings-menu-items.tsx:26
+#: src/components/app/settings/settings-menu-items.tsx:32
+msgid "Sign out"
+msgstr "Sign out"
+
+#: src/components/app/settings/settings-menu-items.tsx:30
+msgid "Sign out?"
+msgstr "Sign out?"
+
+#: src/components/auth/sign-up.tsx:73
+#: src/routes/_auth/signup.tsx:17
+msgid "Sign up"
+msgstr "Sign up"
+
+#: src/components/app/organizations/invites/create-invite.tsx:125
+#: src/components/app/organizations/invites/invite-list.tsx:145
+msgid "Single use"
+msgstr "Single use"
+
+#. placeholder {0}: i18n.date(discussion.createdAt, { timeStyle: "short", dateStyle: "medium", })
+#: src/components/app/organizations/discussions/discussion-list.tsx:47
+msgid "started at {0} by "
+msgstr "started at {0} by "
+
+#: src/components/app/settings/theme/change-theme.tsx:13
+msgid "System"
+msgstr "System"
+
+#: src/components/app/settings/settings-menu-items.tsx:16
+#: src/routes/_app/settings/theme.tsx:18
+msgid "Theme"
+msgstr "Theme"
+
+#: src/components/app/settings/account/change-password.tsx:30
+#: src/components/auth/sign-up.tsx:35
+msgid "These passwords don't match."
+msgstr "These passwords don't match."
+
+#: src/lib/zod-error-map.ts:25
+msgid "This email is invalid."
+msgstr "This email is invalid."
+
+#: src/components/app/organizations/boards/tasks/create-task.tsx:77
+#: src/components/app/organizations/boards/tasks/update-task.tsx:88
+#: src/components/app/organizations/discussions/create-discussion.tsx:63
+#: src/components/app/organizations/discussions/update-discussion.tsx:59
+msgid "Title"
+msgstr "Title"
+
+#: src/components/app/organizations/boards/tasks/task-list.tsx:48
+msgid "To do"
+msgstr "To do"
+
+#. placeholder {0}: iss.maximum.toString()
+#: src/lib/zod-error-map.ts:19
+msgid "Too long. Must contain less than {0} characters."
+msgstr "Too long. Must contain less than {0} characters."
+
+#. placeholder {0}: iss.minimum.toString()
+#: src/lib/zod-error-map.ts:14
+msgid "Too short. Must contain more than {0} characters."
+msgstr "Too short. Must contain more than {0} characters."
+
+#: src/routes/_app/index.tsx:51
+msgid "Welcome to "
+msgstr "Welcome to "
+
+#: src/components/app/organizations/invites/invite-list.tsx:86
+msgid "Yes"
+msgstr "Yes"
+
+#: src/components/app/organizations/invites/invite-preview.tsx:55
+msgid "You have been invited to join"
+msgstr "You have been invited to join"

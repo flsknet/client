@@ -1,0 +1,601 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-02-20 17:21+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: bg\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/components/app/organizations/invites/create-invite.tsx:36
+msgid "1 hour"
+msgstr "1 час"
+
+#: src/components/app/organizations/invites/create-invite.tsx:52
+msgid "1 month"
+msgstr "1 месец"
+
+#: src/components/app/organizations/invites/create-invite.tsx:48
+msgid "1 week"
+msgstr "1 седмица"
+
+#: src/components/app/organizations/invites/create-invite.tsx:60
+msgid "1 year"
+msgstr "1 година"
+
+#: src/components/app/organizations/invites/create-invite.tsx:40
+msgid "12 hours"
+msgstr "12 часа"
+
+#: src/components/app/organizations/invites/create-invite.tsx:44
+msgid "24 hours"
+msgstr "24 часа"
+
+#: src/components/app/organizations/invites/create-invite.tsx:32
+msgid "30 minutes"
+msgstr "30 минути"
+
+#: src/components/app/organizations/invites/create-invite.tsx:27
+msgid "5 minutes"
+msgstr "5 минути"
+
+#: src/components/app/organizations/invites/create-invite.tsx:56
+msgid "6 months"
+msgstr "6 месеца"
+
+#: src/components/app/organizations/invites/invite-preview.tsx:99
+msgid "Accept"
+msgstr "Приеми"
+
+#: src/components/app/settings/settings-menu-items.tsx:11
+#: src/routes/_app/settings/account.tsx:22
+msgid "Account"
+msgstr "Акаунт"
+
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/index.tsx:71
+msgid "Add"
+msgstr "Добави"
+
+#: src/components/app/organizations/members/member-list.tsx:38
+#: src/components/app/organizations/members/update-member.tsx:24
+msgid "Admin"
+msgstr "Админ"
+
+#: src/routes/_auth/signup.tsx:21
+msgid "Already have an account?"
+msgstr "Вече имате акаунт?"
+
+#: src/components/error-fallback.tsx:8
+#: src/lib/zod-error-map.ts:32
+msgid "An error occured."
+msgstr "Възникна грешка."
+
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/index.tsx:49
+msgid "Are you sure you want to delete this board?"
+msgstr "Сигурни ли сте, че искате да изтриете тази дъска?"
+
+#: src/components/app/organizations/discussions/comments/comment-list.tsx:73
+msgid "Are you sure you want to delete this comment?"
+msgstr "Сигурни ли сте, че искате да изтриете този коментар?"
+
+#: src/routes/_app/organizations/$organizationId/discussions/$discussionId/index.tsx:50
+msgid "Are you sure you want to delete this discussion?"
+msgstr "Сигурни ли сте, че искате да изтриете тази дискусия?"
+
+#: src/components/app/organizations/invites/invite-list.tsx:57
+msgid "Are you sure you want to delete this invite?"
+msgstr "Сигурни ли сте, че искате да изтриете тази покана?"
+
+#: src/components/app/organizations/delete-organization.tsx:36
+msgid "Are you sure you want to delete this organization?"
+msgstr "Сигурни ли сте, че искате да изтриете тази организация?"
+
+#: src/components/app/organizations/boards/tasks/task-list.tsx:87
+msgid "Are you sure you want to delete this task?"
+msgstr "Сигурни ли сте, че искате да изтриете тази задача?"
+
+#: src/components/app/settings/account/delete-account.tsx:24
+msgid "Are you sure you want to delete your account?"
+msgstr "Сигурни ли сте, че искате да изтриете акаунта си?"
+
+#: src/components/app/organizations/members/member-list.tsx:70
+msgid "Are you sure you want to kick this member?"
+msgstr "Сигурни ли сте, че искате да изгоните този член?"
+
+#: src/components/app/organizations/organization-menu-items.tsx:45
+msgid "Are you sure you want to leave this organization?"
+msgstr "Сигурни ли сте, че искате да напуснете тази организация?"
+
+#: src/components/app/settings/settings-menu-items.tsx:31
+msgid "Are you sure you want to sign out of your account?"
+msgstr "Сигурни ли сте, че искате да излезете от акаунта си?"
+
+#: src/components/app/organizations/boards/tasks/create-task.tsx:91
+#: src/components/app/organizations/boards/tasks/create-task.tsx:94
+#: src/components/app/organizations/boards/tasks/update-task.tsx:102
+#: src/components/app/organizations/boards/tasks/update-task.tsx:105
+msgid "Assigned to"
+msgstr "Възложено на"
+
+#: src/components/app/organizations/organization-menu-items.tsx:29
+#: src/components/app/organizations/organization-overview.tsx:44
+#: src/routes/_app/organizations/$organizationId/boards/index.tsx:26
+msgid "Boards"
+msgstr "Дъски"
+
+#: src/components/app/organizations/boards/tasks/task-list.tsx:89
+#: src/components/app/organizations/delete-organization.tsx:38
+#: src/components/app/organizations/discussions/comments/comment-list.tsx:75
+#: src/components/app/organizations/invites/invite-list.tsx:59
+#: src/components/app/organizations/members/member-list.tsx:72
+#: src/components/app/organizations/organization-menu-items.tsx:47
+#: src/components/app/settings/account/delete-account.tsx:26
+#: src/components/app/settings/settings-menu-items.tsx:33
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/index.tsx:51
+#: src/routes/_app/organizations/$organizationId/discussions/$discussionId/index.tsx:52
+msgid "Cancel"
+msgstr "Отказ"
+
+#: src/components/app/settings/account/change-email.tsx:43
+#: src/components/app/settings/account/change-password.tsx:65
+msgid "Change"
+msgstr "Промени"
+
+#: src/routes/_app/settings/account.tsx:32
+msgid "Change email"
+msgstr "Промени имейл"
+
+#: src/routes/_app/settings/language.tsx:21
+msgid "Change language"
+msgstr "Промени език"
+
+#: src/routes/_app/settings/account.tsx:38
+msgid "Change password"
+msgstr "Промени парола"
+
+#: src/routes/_app/settings/theme.tsx:21
+msgid "Change theme"
+msgstr "Промени тема"
+
+#: src/components/app/organizations/discussions/comments/create-comment.tsx:87
+msgctxt "verb"
+msgid "Comment"
+msgstr "Коментирай"
+
+#: src/components/app/settings/account/change-password.tsx:55
+#: src/components/auth/sign-up.tsx:67
+msgid "Confirm password"
+msgstr "Потвърди парола"
+
+#: src/routes/_app/index.tsx:19
+msgid "Coordinate and collaborate with your team."
+msgstr "Координирайте и си сътрудничете с екипа си."
+
+#: src/components/app/organizations/invites/invite-list.tsx:107
+msgctxt "verb"
+msgid "Copy"
+msgstr "Копирай"
+
+#: src/components/app/organizations/boards/create-board.tsx:57
+#: src/components/app/organizations/boards/tasks/create-task.tsx:123
+#: src/components/app/organizations/create-organization.tsx:87
+#: src/components/app/organizations/discussions/create-discussion.tsx:88
+#: src/components/app/organizations/invites/create-invite.tsx:141
+#: src/routes/_app/organizations/$organizationId/boards/index.tsx:32
+#: src/routes/_app/organizations/$organizationId/discussions/index.tsx:26
+#: src/routes/_app/organizations/$organizationId/settings/invites/index.tsx:35
+msgid "Create"
+msgstr "Създай"
+
+#: src/routes/_app/index.tsx:18
+msgid "Create an organization"
+msgstr "Създай организация"
+
+#: src/components/app/settings/account/change-password.tsx:41
+msgid "Current password"
+msgstr "Текуща парола"
+
+#: src/components/app/settings/theme/change-theme.tsx:17
+msgid "Dark"
+msgstr "Тъмна"
+
+#: src/components/app/organizations/invites/invite-preview.tsx:91
+msgid "Decline"
+msgstr "Откажи"
+
+#: src/components/app/organizations/boards/tasks/task-list.tsx:88
+#: src/components/app/organizations/boards/tasks/task-list.tsx:182
+#: src/components/app/organizations/delete-organization.tsx:37
+#: src/components/app/organizations/discussions/comments/comment-list.tsx:74
+#: src/components/app/organizations/discussions/comments/comment-list.tsx:149
+#: src/components/app/organizations/invites/invite-list.tsx:58
+#: src/components/app/organizations/invites/invite-list.tsx:115
+#: src/components/app/settings/account/delete-account.tsx:25
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/index.tsx:50
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/index.tsx:89
+#: src/routes/_app/organizations/$organizationId/discussions/$discussionId/index.tsx:51
+#: src/routes/_app/organizations/$organizationId/discussions/$discussionId/index.tsx:87
+msgid "Delete"
+msgstr "Изтрий"
+
+#: src/components/app/settings/account/delete-account.tsx:46
+#: src/routes/_app/settings/account.tsx:44
+msgid "Delete account"
+msgstr "Изтрий акаунт"
+
+#: src/components/app/settings/account/delete-account.tsx:23
+msgid "Delete account?"
+msgstr "Изтрий акаунт?"
+
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/index.tsx:48
+msgid "Delete board?"
+msgstr "Изтрий дъска?"
+
+#: src/components/app/organizations/discussions/comments/comment-list.tsx:72
+msgid "Delete comment?"
+msgstr "Изтрий коментар?"
+
+#: src/routes/_app/organizations/$organizationId/discussions/$discussionId/index.tsx:49
+msgid "Delete discussion?"
+msgstr "Изтрий дискусия?"
+
+#: src/components/app/organizations/invites/invite-list.tsx:56
+msgid "Delete invite?"
+msgstr "Изтрий покана?"
+
+#: src/components/app/organizations/delete-organization.tsx:58
+#: src/routes/_app/organizations/$organizationId/settings/general.tsx:38
+msgid "Delete organization"
+msgstr "Изтрий организация"
+
+#: src/components/app/organizations/delete-organization.tsx:35
+msgid "Delete organization?"
+msgstr "Изтрий организация?"
+
+#: src/components/app/organizations/boards/tasks/task-list.tsx:86
+msgid "Delete task?"
+msgstr "Изтрий задача?"
+
+#: src/components/app/organizations/discussions/comments/comment-list.tsx:96
+#: src/components/app/organizations/discussions/discussion-list.tsx:57
+msgid "Deleted user"
+msgstr "Изтрит потребител"
+
+#: src/components/app/organizations/boards/tasks/create-task.tsx:83
+#: src/components/app/organizations/boards/tasks/update-task.tsx:94
+#: src/components/app/organizations/create-organization.tsx:62
+#: src/components/app/organizations/update-organization.tsx:103
+msgid "Description"
+msgstr "Описание"
+
+#: src/components/app/organizations/organization-menu-items.tsx:24
+#: src/components/app/organizations/organization-overview.tsx:39
+#: src/routes/_app/organizations/$organizationId/discussions/index.tsx:24
+msgid "Discussions"
+msgstr "Дискусии"
+
+#: src/routes/_auth/signin.tsx:21
+msgid "Don't have an account?"
+msgstr "Нямате акаунт?"
+
+#: src/components/app/organizations/boards/tasks/task-list.tsx:50
+msgid "Done"
+msgstr "Готово"
+
+#: src/components/app/organizations/boards/tasks/task-list.tsx:174
+#: src/components/app/organizations/discussions/comments/comment-list.tsx:135
+#: src/components/app/organizations/members/member-list.tsx:114
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/index.tsx:80
+#: src/routes/_app/organizations/$organizationId/discussions/$discussionId/index.tsx:72
+msgid "Edit"
+msgstr "Редактирай"
+
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/edit.tsx:20
+msgid "Edit board"
+msgstr "Редактирай дъска"
+
+#: src/routes/_app/organizations/$organizationId/discussions/$discussionId/$commentId.edit.tsx:34
+msgid "Edit comment"
+msgstr "Редактирай коментар"
+
+#: src/routes/_app/organizations/$organizationId/discussions/$discussionId/edit.tsx:20
+msgid "Edit discussion"
+msgstr "Редактирай дискусия"
+
+#: src/routes/_app/organizations/$organizationId/settings/people/$userId.edit.tsx:32
+msgid "Edit member"
+msgstr "Редактирай член"
+
+#: src/routes/_app/organizations/$organizationId/settings/general.tsx:28
+msgid "Edit organization"
+msgstr "Редактирай организация"
+
+#: src/routes/_app/settings/account.tsx:26
+msgid "Edit profile"
+msgstr "Редактирай профил"
+
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/$taskId.edit.tsx:45
+msgid "Edit task"
+msgstr "Редактирай задача"
+
+#: src/components/app/settings/account/change-email.tsx:34
+#: src/components/auth/sign-in.tsx:40
+#: src/components/auth/sign-up.tsx:53
+msgid "Email"
+msgstr "Имейл"
+
+#: src/components/app/organizations/invites/invite-list.tsx:142
+msgid "Expires at"
+msgstr "Изтича на"
+
+#: src/components/app/organizations/invites/create-invite.tsx:101
+#: src/components/app/organizations/invites/create-invite.tsx:104
+msgid "Expires in"
+msgstr "Изтича след"
+
+#: src/components/app/organizations/organization-settings-items.tsx:6
+#: src/routes/_app/organizations/$organizationId/settings/general.tsx:24
+msgid "General"
+msgstr "Общи"
+
+#: src/routes/_app.tsx:49
+msgid "Home"
+msgstr "Начало"
+
+#: src/components/app/organizations/boards/tasks/task-list.tsx:49
+msgid "In progress"
+msgstr "В изпълнение"
+
+#: src/components/app/organizations/invites/invite-list.tsx:139
+#: src/components/app/organizations/join-organization.tsx:42
+msgid "Invite code"
+msgstr "Код за покана"
+
+#: src/components/app/organizations/organization-settings-items.tsx:16
+#: src/routes/_app/organizations/$organizationId/settings/invites/index.tsx:33
+msgid "Invites"
+msgstr "Код за покана"
+
+#: src/components/app/organizations/join-organization.tsx:52
+#: src/routes/_app/organizations/index.tsx:36
+msgid "Join"
+msgstr "Присъединяване"
+
+#: src/routes/_app/index.tsx:25
+msgid "Join an existing organization with an invite code."
+msgstr "Присъединете се към съществуваща организация с код за покана."
+
+#: src/routes/_app/index.tsx:24
+#: src/routes/_app/organizations/join.tsx:17
+msgid "Join an organization"
+msgstr "Присъединяване към организация"
+
+#. placeholder {0}: i18n.date(member.joinedAt, { timeStyle: "short", dateStyle: "medium", })
+#: src/components/app/organizations/members/member-list.tsx:135
+msgid "Joined at {0}"
+msgstr "Присъединен на {0}"
+
+#: src/components/app/organizations/members/member-list.tsx:71
+#: src/components/app/organizations/members/member-list.tsx:123
+msgid "Kick"
+msgstr "Изгони"
+
+#: src/components/app/organizations/members/member-list.tsx:69
+msgid "Kick member?"
+msgstr "Изгони потребител?"
+
+#: src/components/app/settings/settings-menu-items.tsx:21
+#: src/routes/_app/settings/language.tsx:18
+msgid "Language"
+msgstr "Език"
+
+#: src/components/app/organizations/organization-menu-items.tsx:40
+#: src/components/app/organizations/organization-menu-items.tsx:46
+msgid "Leave"
+msgstr "Напусни"
+
+#: src/components/app/organizations/organization-menu-items.tsx:44
+msgid "Leave?"
+msgstr "Напусни?"
+
+#: src/components/app/settings/theme/change-theme.tsx:21
+msgid "Light"
+msgstr "Светла"
+
+#: src/components/app/organizations/members/member-list.tsx:37
+#: src/components/app/organizations/members/update-member.tsx:23
+msgid "Member"
+msgstr "Член"
+
+#: src/components/app/organizations/boards/create-board.tsx:47
+#: src/components/app/organizations/boards/update-board.tsx:56
+#: src/components/app/organizations/create-organization.tsx:56
+#: src/components/app/organizations/update-organization.tsx:97
+#: src/components/app/settings/account/edit-profile.tsx:64
+#: src/components/auth/sign-up.tsx:47
+msgid "Name"
+msgstr "Име"
+
+#: src/components/app/organizations/invites/create-invite.tsx:23
+#: src/components/app/organizations/invites/invite-list.tsx:84
+msgid "Never"
+msgstr "Никога"
+
+#: src/routes/_app/organizations/index.tsx:29
+msgid "New"
+msgstr "Създай"
+
+#: src/routes/_app/organizations/$organizationId/boards/new.tsx:20
+msgid "New board"
+msgstr "Нова дъска"
+
+#: src/routes/_app/organizations/$organizationId/discussions/new.tsx:20
+msgid "New discussion"
+msgstr "Нова дискусия"
+
+#: src/routes/_app/organizations/$organizationId/settings/invites/new.tsx:20
+msgid "New invite"
+msgstr "Нова покана"
+
+#: src/routes/_app/organizations/new.tsx:17
+msgid "New organization"
+msgstr "Нова организация"
+
+#: src/components/app/settings/account/change-password.tsx:48
+msgid "New password"
+msgstr "Нова парола"
+
+#: src/routes/_app/organizations/$organizationId/boards/$boardId/new.tsx:20
+msgid "New task"
+msgstr "Нова задача"
+
+#: src/components/app/organizations/invites/invite-list.tsx:86
+msgid "No"
+msgstr "Не"
+
+#: src/components/app/organizations/boards/tasks/task-list.tsx:140
+#: src/components/app/organizations/organization-overview.tsx:83
+msgid "No description"
+msgstr "Без описание"
+
+#: src/routes/_app.tsx:54
+#: src/routes/_app/organizations/index.tsx:27
+msgid "Organizations"
+msgstr "Организации"
+
+#: src/components/app/organizations/organization-menu-items.tsx:19
+#: src/routes/_app/organizations/$organizationId/overview.tsx:20
+msgid "Overview"
+msgstr "Преглед"
+
+#: src/components/app/organizations/members/member-list.tsx:39
+msgid "Owner"
+msgstr "Собственик"
+
+#: src/components/auth/sign-in.tsx:46
+#: src/components/auth/sign-up.tsx:60
+msgid "Password"
+msgstr "Парола"
+
+#: src/components/app/organizations/organization-overview.tsx:34
+#: src/components/app/organizations/organization-settings-items.tsx:11
+#: src/routes/_app/organizations/$organizationId/settings/people/index.tsx:40
+msgid "People"
+msgstr "Хора"
+
+#: src/components/auth/sign-in.tsx:52
+msgid "Remember me"
+msgstr "Запомни ме"
+
+#: src/lib/zod-error-map.ts:9
+msgid "Required."
+msgstr "Моля, попълнете полето."
+
+#: src/components/app/organizations/members/update-member.tsx:69
+#: src/components/app/organizations/members/update-member.tsx:72
+msgid "Role"
+msgstr "Роля"
+
+#: src/components/app/organizations/boards/tasks/update-task.tsx:134
+#: src/components/app/organizations/boards/update-board.tsx:66
+#: src/components/app/organizations/discussions/comments/update-comment.tsx:97
+#: src/components/app/organizations/discussions/update-discussion.tsx:69
+#: src/components/app/organizations/members/update-member.tsx:96
+#: src/components/app/organizations/update-organization.tsx:127
+#: src/components/app/settings/account/edit-profile.tsx:73
+msgid "Save"
+msgstr "Запази"
+
+#: src/components/app/organizations/organization-menu-items.tsx:34
+#: src/routes/_app.tsx:59
+#: src/routes/_app/organizations/$organizationId/settings/index.tsx:20
+#: src/routes/_app/settings.tsx:35
+#: src/routes/_app/settings/index.tsx:24
+msgid "Settings"
+msgstr "Настройки"
+
+#: src/components/auth/sign-in.tsx:59
+#: src/routes/_auth/signin.tsx:17
+msgid "Sign in"
+msgstr "Влизане"
+
+#: src/components/app/settings/settings-menu-items.tsx:26
+#: src/components/app/settings/settings-menu-items.tsx:32
+msgid "Sign out"
+msgstr "Излез"
+
+#: src/components/app/settings/settings-menu-items.tsx:30
+msgid "Sign out?"
+msgstr "Излез?"
+
+#: src/components/auth/sign-up.tsx:73
+#: src/routes/_auth/signup.tsx:17
+msgid "Sign up"
+msgstr "Създай акаунт"
+
+#: src/components/app/organizations/invites/create-invite.tsx:125
+#: src/components/app/organizations/invites/invite-list.tsx:145
+msgid "Single use"
+msgstr "Еднократна употреба"
+
+#. placeholder {0}: i18n.date(discussion.createdAt, { timeStyle: "short", dateStyle: "medium", })
+#: src/components/app/organizations/discussions/discussion-list.tsx:47
+msgid "started at {0} by "
+msgstr "започнато на {0} от"
+
+#: src/components/app/settings/theme/change-theme.tsx:13
+msgid "System"
+msgstr "Система"
+
+#: src/components/app/settings/settings-menu-items.tsx:16
+#: src/routes/_app/settings/theme.tsx:18
+msgid "Theme"
+msgstr "Тема"
+
+#: src/components/app/settings/account/change-password.tsx:30
+#: src/components/auth/sign-up.tsx:35
+msgid "These passwords don't match."
+msgstr "Тези пароли не съвпадат."
+
+#: src/lib/zod-error-map.ts:25
+msgid "This email is invalid."
+msgstr "Този имейл е невалиден."
+
+#: src/components/app/organizations/boards/tasks/create-task.tsx:77
+#: src/components/app/organizations/boards/tasks/update-task.tsx:88
+#: src/components/app/organizations/discussions/create-discussion.tsx:63
+#: src/components/app/organizations/discussions/update-discussion.tsx:59
+msgid "Title"
+msgstr "Заглавие"
+
+#: src/components/app/organizations/boards/tasks/task-list.tsx:48
+msgid "To do"
+msgstr "За изпълнение"
+
+#. placeholder {0}: iss.maximum.toString()
+#: src/lib/zod-error-map.ts:19
+msgid "Too long. Must contain less than {0} characters."
+msgstr "Прекалено дълго. Трябва да съдържа под {0} символа."
+
+#. placeholder {0}: iss.minimum.toString()
+#: src/lib/zod-error-map.ts:14
+msgid "Too short. Must contain more than {0} characters."
+msgstr "Прекалено късо. Трябва да съдържа над {0} символа."
+
+#: src/routes/_app/index.tsx:51
+msgid "Welcome to "
+msgstr "Добре дошли във "
+
+#: src/components/app/organizations/invites/invite-list.tsx:86
+msgid "Yes"
+msgstr "Да"
+
+#: src/components/app/organizations/invites/invite-preview.tsx:55
+msgid "You have been invited to join"
+msgstr "Поканени сте да се присъедините"

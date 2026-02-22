@@ -183,8 +183,10 @@ export type AcceptOrganizationInviteData = {
 };
 
 export type AcceptOrganizationInviteResponses = {
-    200: unknown;
+    200: OrganizationInvitePreview;
 };
+
+export type AcceptOrganizationInviteResponse = AcceptOrganizationInviteResponses[keyof AcceptOrganizationInviteResponses];
 
 export type ListBoardTasksData = {
     body?: never;

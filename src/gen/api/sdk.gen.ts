@@ -34,7 +34,11 @@ export const findOrganizationInvite = <ThrowOnError extends boolean = false>(opt
  *
  * Accept an invite and join an organization.
  */
-export const acceptOrganizationInvite = <ThrowOnError extends boolean = false>(options: Options<AcceptOrganizationInviteData, ThrowOnError>) => (options.client ?? client).post<AcceptOrganizationInviteResponses, unknown, ThrowOnError>({ url: '/v1/invites/{inviteId}/accept', ...options });
+export const acceptOrganizationInvite = <ThrowOnError extends boolean = false>(options: Options<AcceptOrganizationInviteData, ThrowOnError>) => (options.client ?? client).post<AcceptOrganizationInviteResponses, unknown, ThrowOnError>({
+    responseType: 'json',
+    url: '/v1/invites/{inviteId}/accept',
+    ...options
+});
 
 /**
  * List board tasks

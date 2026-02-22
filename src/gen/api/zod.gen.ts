@@ -275,6 +275,8 @@ export const zAcceptOrganizationInviteData = z.object({
     query: z.never().optional()
 });
 
+export const zAcceptOrganizationInviteResponse = zOrganizationInvitePreview;
+
 export const zListBoardTasksData = z.object({
     body: z.never().optional(),
     path: z.object({

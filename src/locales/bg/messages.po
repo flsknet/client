@@ -360,7 +360,7 @@ msgstr "Код за покана"
 #: src/components/app/organizations/organization-settings-items.tsx:16
 #: src/routes/_app/organizations/$organizationId/settings/invites/index.tsx:33
 msgid "Invites"
-msgstr "Код за покана"
+msgstr "Покани"
 
 #: src/components/app/organizations/join-organization.tsx:52
 #: src/routes/_app/organizations/index.tsx:36

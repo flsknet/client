@@ -5,14 +5,12 @@ import { Button } from "@mui/material";
 import { useMutation } from "@tanstack/react-query";
 
 import {
-  BoldItalicUnderlineToggles,
   diffSourcePlugin,
   headingsPlugin,
   listsPlugin,
   markdownShortcutPlugin,
   MDXEditor,
   quotePlugin,
-  toolbarPlugin,
   type MDXEditorMethods,
 } from "@mdxeditor/editor";
 
@@ -71,9 +69,6 @@ export function CreateComment({
               quotePlugin(),
               markdownShortcutPlugin(),
               diffSourcePlugin({ viewMode: "source" }),
-              toolbarPlugin({
-                toolbarContents: () => <BoldItalicUnderlineToggles />,
-              }),
             ]}
             onChange={(value) => setValue("content", value)}
             ref={editorRef}

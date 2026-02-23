@@ -6,14 +6,12 @@ import { useMutation, useSuspenseQuery } from "@tanstack/react-query";
 import { useNavigate } from "@tanstack/react-router";
 
 import {
-  BoldItalicUnderlineToggles,
   diffSourcePlugin,
   headingsPlugin,
   listsPlugin,
   markdownShortcutPlugin,
   MDXEditor,
   quotePlugin,
-  toolbarPlugin,
   type MDXEditorMethods,
 } from "@mdxeditor/editor";
 
@@ -85,9 +83,6 @@ export function UpdateComment({
               quotePlugin(),
               markdownShortcutPlugin(),
               diffSourcePlugin({ viewMode: "source" }),
-              toolbarPlugin({
-                toolbarContents: () => <BoldItalicUnderlineToggles />,
-              }),
             ]}
             onChange={(value) => setValue("content", value)}
             ref={editorRef}

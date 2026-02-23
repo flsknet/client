@@ -6,14 +6,12 @@ import { Avatar, Button, TextField } from "@mui/material";
 import { useMutation, useSuspenseQuery } from "@tanstack/react-query";
 
 import {
-  BoldItalicUnderlineToggles,
   diffSourcePlugin,
   headingsPlugin,
   listsPlugin,
   markdownShortcutPlugin,
   MDXEditor,
   quotePlugin,
-  toolbarPlugin,
   type MDXEditorMethods,
 } from "@mdxeditor/editor";
 
@@ -116,9 +114,6 @@ export function UpdateOrganization({
               quotePlugin(),
               markdownShortcutPlugin(),
               diffSourcePlugin({ viewMode: "source" }),
-              toolbarPlugin({
-                toolbarContents: () => <BoldItalicUnderlineToggles />,
-              }),
             ]}
             onChange={(value) => setValue("readme", value)}
             ref={editorRef}

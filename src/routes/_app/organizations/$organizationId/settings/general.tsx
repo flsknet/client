@@ -2,10 +2,7 @@ import { Trans, useLingui } from "@lingui/react/macro";
 import { Stack, Typography } from "@mui/material";
 import { createFileRoute } from "@tanstack/react-router";
 
-import {
-  getOrganizationOptions,
-  getOrganizationQueryKey,
-} from "~/gen/api/@tanstack/react-query.gen";
+import { getOrganizationOptions } from "~/gen/api/@tanstack/react-query.gen";
 
 import { Content } from "~/components/layout/content";
 import { Header } from "~/components/layout/header";
@@ -19,16 +16,11 @@ import { queryClient } from "~/lib/react-query";
 export const Route = createFileRoute(
   "/_app/organizations/$organizationId/settings/general"
 )({
-  loader: async ({ params: { organizationId } }) => {
-    queryClient.removeQueries({
-      queryKey: getOrganizationQueryKey({ path: { organizationId } }),
-    });
-
+  beforeLoad: async ({ params: { organizationId } }) => {
     await queryClient.ensureQueryData(
       getOrganizationOptions({ path: { organizationId } })
     );
   },
-  gcTime: 0,
   component: RouteComponent,
 });
 

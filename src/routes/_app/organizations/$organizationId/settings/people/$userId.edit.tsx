@@ -1,10 +1,7 @@
 import { useLingui } from "@lingui/react/macro";
 import { createFileRoute } from "@tanstack/react-router";
 
-import {
-  getOrganizationMemberOptions,
-  getOrganizationMemberQueryKey,
-} from "~/gen/api/@tanstack/react-query.gen";
+import { getOrganizationMemberOptions } from "~/gen/api/@tanstack/react-query.gen";
 
 import { UpdateMember } from "~/components/app/organizations/members/update-member";
 import { Content } from "~/components/layout/content";
@@ -16,17 +13,10 @@ export const Route = createFileRoute(
   "/_app/organizations/$organizationId/settings/people/$userId/edit"
 )({
   loader: async ({ params: { organizationId, userId } }) => {
-    queryClient.removeQueries({
-      queryKey: getOrganizationMemberQueryKey({
-        path: { organizationId, userId },
-      }),
-    });
-
     await queryClient.ensureQueryData(
       getOrganizationMemberOptions({ path: { organizationId, userId } })
     );
   },
-  gcTime: 0,
   component: RouteComponent,
 });
 

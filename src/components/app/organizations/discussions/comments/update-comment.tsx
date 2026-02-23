@@ -40,7 +40,7 @@ export function UpdateComment({
 
   const editorRef = useRef<MDXEditorMethods>(null);
 
-  const { data: comment } = useSuspenseQuery(
+  const { data: comment, isFetching } = useSuspenseQuery(
     getDiscussionCommentOptions({
       path: { organizationId, discussionId, commentId },
     })
@@ -59,6 +59,10 @@ export function UpdateComment({
       });
     },
   });
+
+  if (isFetching) {
+    return <></>;
+  }
 
   return (
     <Form

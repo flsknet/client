@@ -3,10 +3,8 @@ import { createFileRoute } from "@tanstack/react-router";
 
 import {
   getBoardTaskOptions,
-  getBoardTaskQueryKey,
   getUserOptions,
   listOrganizationMembersOptions,
-  listOrganizationMembersQueryKey,
 } from "~/gen/api/@tanstack/react-query.gen";
 
 import { UpdateTask } from "~/components/app/organizations/boards/tasks/update-task";
@@ -19,21 +17,9 @@ export const Route = createFileRoute(
   "/_app/organizations/$organizationId/boards/$boardId/$taskId/edit"
 )({
   loader: async ({ params: { organizationId, boardId, taskId } }) => {
-    queryClient.removeQueries({
-      queryKey: getBoardTaskQueryKey({
-        path: { organizationId, boardId, taskId },
-      }),
-    });
-
     await queryClient.ensureQueryData(
       getBoardTaskOptions({ path: { organizationId, boardId, taskId } })
     );
-
-    queryClient.removeQueries({
-      queryKey: listOrganizationMembersQueryKey({
-        path: { organizationId },
-      }),
-    });
 
     const members = await queryClient.ensureQueryData(
       listOrganizationMembersOptions({ path: { organizationId } })
@@ -47,7 +33,6 @@ export const Route = createFileRoute(
       })
     );
   },
-  gcTime: 0,
   component: RouteComponent,
 });
 

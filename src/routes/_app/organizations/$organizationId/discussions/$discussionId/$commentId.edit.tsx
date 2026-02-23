@@ -1,10 +1,7 @@
 import { useLingui } from "@lingui/react/macro";
 import { createFileRoute } from "@tanstack/react-router";
 
-import {
-  getDiscussionCommentOptions,
-  getDiscussionCommentQueryKey,
-} from "~/gen/api/@tanstack/react-query.gen";
+import { getDiscussionCommentOptions } from "~/gen/api/@tanstack/react-query.gen";
 
 import { UpdateComment } from "~/components/app/organizations/discussions/comments/update-comment";
 import { Content } from "~/components/layout/content";
@@ -16,19 +13,12 @@ export const Route = createFileRoute(
   "/_app/organizations/$organizationId/discussions/$discussionId/$commentId/edit"
 )({
   loader: async ({ params: { organizationId, discussionId, commentId } }) => {
-    queryClient.removeQueries({
-      queryKey: getDiscussionCommentQueryKey({
-        path: { organizationId, discussionId, commentId },
-      }),
-    });
-
     await queryClient.ensureQueryData(
       getDiscussionCommentOptions({
         path: { organizationId, discussionId, commentId },
       })
     );
   },
-  gcTime: 0,
   component: RouteComponent,
 });
 

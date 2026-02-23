@@ -23,7 +23,7 @@ export function UpdateDiscussion({
   const navigate = useNavigate();
   const { t } = useLingui();
 
-  const { data: discussion } = useSuspenseQuery(
+  const { data: discussion, isFetching } = useSuspenseQuery(
     getDiscussionOptions({ path: { organizationId, discussionId } })
   );
 
@@ -40,6 +40,10 @@ export function UpdateDiscussion({
       });
     },
   });
+
+  if (isFetching) {
+    return <></>;
+  }
 
   return (
     <Form

@@ -38,7 +38,7 @@ export function UpdateOrganization({
   const editorRef = useRef<MDXEditorMethods>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const { data: organization } = useSuspenseQuery(
+  const { data: organization, isFetching } = useSuspenseQuery(
     getOrganizationOptions({ path: { organizationId } })
   );
 
@@ -50,6 +50,10 @@ export function UpdateOrganization({
       );
     },
   });
+
+  if (isFetching) {
+    return <></>;
+  }
 
   return (
     <Form

@@ -42,7 +42,7 @@ export function UpdateTask({
   const navigate = useNavigate();
   const { t } = useLingui();
 
-  const { data: task } = useSuspenseQuery(
+  const { data: task, isFetching } = useSuspenseQuery(
     getBoardTaskOptions({ path: { organizationId, boardId, taskId } })
   );
 
@@ -69,6 +69,10 @@ export function UpdateTask({
       });
     },
   });
+
+  if (isFetching) {
+    return <></>;
+  }
 
   return (
     <Form

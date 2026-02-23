@@ -33,7 +33,7 @@ export function UpdateMember({ organizationId, userId }: UpdateMemberProps) {
   const navigate = useNavigate();
   const { t } = useLingui();
 
-  const { data: member } = useSuspenseQuery(
+  const { data: member, isFetching } = useSuspenseQuery(
     getOrganizationMemberOptions({ path: { organizationId, userId } })
   );
 
@@ -50,6 +50,10 @@ export function UpdateMember({ organizationId, userId }: UpdateMemberProps) {
       });
     },
   });
+
+  if (isFetching) {
+    return <></>;
+  }
 
   return (
     <Form

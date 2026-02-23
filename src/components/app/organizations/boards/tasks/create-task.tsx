@@ -36,7 +36,7 @@ export function CreateTask({ organizationId, boardId }: CreateTaskProps) {
   const navigate = useNavigate();
   const { t } = useLingui();
 
-  const { data: members } = useSuspenseQuery(
+  const { data: members, isFetching } = useSuspenseQuery(
     listOrganizationMembersOptions({ path: { organizationId } })
   );
 
@@ -59,6 +59,10 @@ export function CreateTask({ organizationId, boardId }: CreateTaskProps) {
       });
     },
   });
+
+  if (isFetching) {
+    return <></>;
+  }
 
   return (
     <Form

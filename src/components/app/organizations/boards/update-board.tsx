@@ -20,7 +20,7 @@ export function UpdateBoard({ organizationId, boardId }: UpdateBoardProps) {
   const navigate = useNavigate();
   const { t } = useLingui();
 
-  const { data: board } = useSuspenseQuery(
+  const { data: board, isFetching } = useSuspenseQuery(
     getBoardOptions({ path: { organizationId, boardId } })
   );
 
@@ -37,6 +37,10 @@ export function UpdateBoard({ organizationId, boardId }: UpdateBoardProps) {
       });
     },
   });
+
+  if (isFetching) {
+    return <></>;
+  }
 
   return (
     <Form

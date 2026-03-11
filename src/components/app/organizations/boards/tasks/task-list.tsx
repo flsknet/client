@@ -128,7 +128,7 @@ function TaskItem({ organizationId, boardId, task }: TaskItemProps) {
           sx={{ paddingBottom: 0 }}
         />
         <CardContent sx={{ paddingTop: 0, paddingBottom: "16px !important" }}>
-          {!!task.description ? (
+          {task.description ? (
             <Typography
               variant="body2"
               sx={{
